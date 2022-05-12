@@ -1,43 +1,43 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import About from './components/About';
-import Contact from './components/Contact';
-import Portfolio from './components/Portfolio';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
+import Home from './pages/Home';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('about');
-
-  const renderCurrentPage = () => {
-    switch(currentPage) {
-      case 'about':
-        return (
-          <About />
-        )
-      case 'contact':
-        return (
-          <Contact />
-        )
-      case 'portfolio':
-        return (
-          <Portfolio />
-        )
-      default:
-        console.log('page request unknown');
-        break;
-    };
-  };
-
-  const navToPage = () => {
-
-  }
 
   return (
     <>
-      <Header />
-      {renderCurrentPage()}
-      <Footer />
+    <Router>
+      <div className='h-screen overflow-y-auto scroll-smooth'>
+        <Header />
+          <div className='h-3/4'>
+            <Routes>
+              <Route
+                path='/'
+                element={<Home />}
+              />
+              <Route
+                path='/about'
+                element={<About />}
+              />
+              <Route
+                path='/contact'
+                element={<Contact />}
+              />
+              <Route
+                path='/portfolio'
+                element={<Portfolio />}
+              />
+            </Routes>
+          </div>
+        <Footer />
+      </div>
+    </Router>
     </>
   );
 }
