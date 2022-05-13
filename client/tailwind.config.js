@@ -4,6 +4,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        '50p': "50%",
+      },
+      boxShadow: {
+        'rounded': 'inset 0 0 5px 2px #E3F8FFAA',
+        'pressed': 'inset 0 0 5px 2px #0B69A377'
+      },
       screens: {
         'xs': '540px',
       },

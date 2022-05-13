@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Virtual Bulletin",
+    "techIcons": [
+      "devicon-handlebars-plain colored",
+      "devicon-css3-plain colored",
+      "devicon-javascript-plain colored",
+      "devicon-express-original colored",
+      "devicon-sequelize-plain colored",
+      "devicon-nodejs-plain colored"
+    ],
+    "desc": "Full stack application used to store research materials that you wish to share with a group. Users are given the option to create groups and invite others to join. From there, a user can create bulletins to share with that group, where posts can be made the same way you would in the real world!",
+    "image": "https://franklymaxwell.com/assets/media/images/Virtual-Bulletin.PNG",
+    "link": "https://mysterious-meadow-53370.herokuapp.com/",
+    "github": "https://github.com/MaxFrank13/Virtual-Bulletin"
+  },
+  {
+    "id": 2,
+    "name": "Frankly Blogging",
+    "techIcons": [
+      "devicon-handlebars-plain colored",
+      "devicon-css3-plain colored",
+      "devicon-javascript-plain colored",
+      "devicon-express-original colored",
+      "devicon-sequelize-plain colored",
+      "devicon-nodejs-plain colored"
+    ],
+    "desc": "A blog site to hold the ramblings of anything web development related. Full stack application with user authentication. Built using Handlebars for the views, Sequelize as the ORM, and Express for routing.",
+    "image": "https://franklymaxwell.com/assets/media/images/Frankly-Blogging.png",
+    "link": "https://polar-eyrie-98965.herokuapp.com/",
+    "github": "https://github.com/MaxFrank13/Frankly-Blogging"
+  },
+  {
+    "id": 3,
+    "name": "Electric Slide",
+    "techIcons": [
+      "devicon-html5-plain colored",
+      "devicon-css3-plain colored",
+      "devicon-javascript-plain colored"
+    ],
+    "desc": "Platformer game created using the Canvas API. Built-in JavaScript animation functions are used to provide an interactive application without the need for third-party APIs.",
+    "image": "https://franklymaxwell.com/assets/media/images/Electric-Slide.jpg",
+    "link": "https://maxfrank13.github.io/Electric-Slide/",
+    "github": "https://github.com/MaxFrank13/Electric-Slide"
+  },
+  {
+    "id": 4,
+    "name": "Gameboy Invaders",
+    "techIcons": [
+      "devicon-handlebars-plain colored",
+      "devicon-css3-plain colored",
+      "devicon-javascript-plain colored",
+      "devicon-threejs-original colored",
+      "devicon-blender-original colored",
+      "devicon-illustrator-plain colored"
+    ],
+    "desc": "A 3D animation created using Blender and threeJS paired with a Space Invaders game built using HTML Canvas.",
+    "image": "https://github.com/MaxFrank13/Space-Invaders/raw/main/assets/media/tour/gameboy-photo.PNG",
+    "link": "https://drive.google.com/file/d/1sj2ZZykjnb90RZKVueX0BeTUUVrHpNqb/view?usp=sharing",
+    "github": "https://github.com/MaxFrank13/Space-Invaders"
+  },
+  {
+    "id": 5,
+    "name": "CarryOn",
+    "techIcons": [
+      "devicon-handlebars-plain colored",
+      "devicon-css3-plain colored",
+      "devicon-javascript-plain colored"
+    ],
+    "desc": "Collaborative project designed to provide users with information on a travel location. Built using the OpenTripMap and Unsplash APIs.",
+    "image": "https://franklymaxwell.com/assets/media/images/CarryOn.png",
+    "link": "https://maxfrank13.github.io/CarryOn/",
+    "github": "https://github.com/MaxFrank13/CarryOn"
+  },
+  {
+    "id": 6,
+    "name": "Minesweeper",
+    "techIcons": [
+      "devicon-handlebars-plain colored",
+      "devicon-css3-plain colored",
+      "devicon-javascript-plain colored",
+      "devicon-react-original colored"
+    ],
+    "desc": "Minesweeper game built using React. Watch out for the mines! If you're unclear on the rules, just pop into the Github README!",
+    "image": "https://franklymaxwell.com/assets/media/images/Minesweeper.png",
+    "link": "https://aqueous-tundra-18749.herokuapp.com/",
+    "github": "https://github.com/MaxFrank13/Minesweeper-React"
+  }
+]

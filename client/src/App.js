@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './pages/About';
@@ -13,9 +13,9 @@ function App() {
   return (
     <>
     <Router>
-      <div className='h-screen overflow-y-auto scroll-smooth'>
+      <div className='h-screen overflow-y-auto scroll-smooth bg-stone-900'>
         <Header />
-          <div className='h-3/4'>
+          <div className='bg-stone-700 py-10'>
             <Routes>
               <Route
                 path='/'
@@ -35,7 +35,7 @@ function App() {
               />
             </Routes>
           </div>
-        <Footer />
+          <Footer />
       </div>
     </Router>
     </>
