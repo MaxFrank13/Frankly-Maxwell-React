@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-Frankly-Maxwell/static/css/main.a22da682.css",
+    "main.js": "/React-Frankly-Maxwell/static/js/main.cb684584.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/React-Frankly-Maxwell/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/portrait.jpg": "/React-Frankly-Maxwell/static/media/portrait.008b44516dc9222bebb0.jpg",
+    "static/media/resume.pdf": "/React-Frankly-Maxwell/static/media/resume.fb0f604b382f06767c89.pdf",
+    "index.html": "/React-Frankly-Maxwell/index.html",
+    "main.a22da682.css.map": "/React-Frankly-Maxwell/static/css/main.a22da682.css.map",
+    "main.cb684584.js.map": "/React-Frankly-Maxwell/static/js/main.cb684584.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/React-Frankly-Maxwell/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a22da682.css",
+    "static/js/main.cb684584.js"
+  ]
+}
