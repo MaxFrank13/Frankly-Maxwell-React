@@ -11,6 +11,9 @@ module.exports = {
         'rounded': 'inset 0 0 5px 2px #E3F8FFAA',
         'pressed': 'inset 0 0 5px 2px #0B69A377'
       },
+      backgroundImage: {
+        'radial': 'radial-gradient(circle, rgba(3,83,136,1) 0%, rgba(255,243,196,1) 24%, rgba(240,180,41,1) 100%)'
+      },
       screens: {
         'xs': '540px',
       },

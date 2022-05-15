@@ -19,10 +19,10 @@ export default function Contact(props) {
     const context = canvas.getContext('2d');
     context.scale(2,2);
     context.lineCap = 'round';
-    context.fillStyle = '#515151';
-    context.strokeStyle = 'white';
+    context.fillStyle = '#CFCFCF';
+    context.strokeStyle = '#127FBF';
     context.fillRect(0, 0, canvas.width, canvas.height);
-    context.lineWidth = 25;
+    context.lineWidth = 35;
 
     contextRef.current = context;
   }, []);
@@ -52,7 +52,7 @@ export default function Contact(props) {
     <section className='relative overflow-hidden'>
       <h1 className='text-stone-100 text-3xl font-bold text-center'>Click and drag to find a hidden treasure!</h1>
       <a 
-      className='absolute top-1/2 left-1/2 black select-none text-2xl text-stone-700 hover:text-yellow-600'
+      className='absolute top-1/2 left-1/2 black select-none text-2xl text-stone-200 hover:text-yellow-600'
       href={resume}>
         <FontAwesomeIcon
           icon={faFileLines}
